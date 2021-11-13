@@ -1,7 +1,3 @@
-@media (max-width: 998px) {
-   
-}
-
 @media (max-width: 768px) {
     html {
         font-size: 12px;
@@ -11,6 +7,9 @@
     }
     footer {
         height: 40px;   
+    }
+    main {
+        margin-bottom: 40px;
     }
 }
 
@@ -30,5 +29,11 @@
     }
     .flip.card-4 p {
         font-size: 1.5rem;
+    }
+    .flip > .back p {
+        font-size: .8rem;
+    }
+    .flip > .back a {
+        font-size: .8rem;
     }
 }
