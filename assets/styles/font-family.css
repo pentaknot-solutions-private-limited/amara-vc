@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "HaasGrot Thin";
+    font-weight: lighter;
+    src: url(../font/HaasGrotDisp-35Thin.otf) format("opentype");
+  }
+  
+  @font-face {
+    font-family: "HaasGrot Light";
+    src: url(../font/HaasGrotDisp-45Light.otf);
+  }
+  
+  @font-face {
+    font-family: "HaasGrot Roman";
+    src: url(../font/HaasGrotDisp-55Roman.otf);
+  }
+  
+  @font-face {
+    font-family: "HaasGrot Bold";
+    src: url(../font/HaasGrotDisp-75Bold.otf);
+  }
+

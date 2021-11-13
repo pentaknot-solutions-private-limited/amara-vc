@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Base Style -->
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <link rel="stylesheet" href="../assets/styles/flip-card.css">
+    <link rel="stylesheet" href="../assets/styles/responsive.css">
+    <link rel="stylesheet" href="../assets/styles/font-family.css">
+    <!-- Bootstrap Style -->
+    <link rel="stylesheet" href="../assets/utils/bootstrap/css/bootstrap-grid.min.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="../assets/Icons/style.css">
+    <title>Amara VC | Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1 onclick="location.href='home.html';">Amara VC</h1>
+        <div class="header-actions">
+            <button onclick="location.href='mailto:Rohit@amara.vc';" class="mail-btn">
+                <span class="avc-icon-mail">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                    <span class="path3"></span>
+                    <span class="path4"></span>
+                    <span class="path5"></span>
+                </span>
+            </button>
+            <button class="nav-btn" onclick="toggleMenu()">
+                <span class="avc-icon-kebabMenu">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                    <span class="path3"></span>
+                    <span class="path4"></span>
+                    <span class="path5"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+    <section class="navigation-layer" id="sidebar">
+        <div class="back-layer" onclick="toggleMenu()"></div>
+        <aside>
+            <nav>
+                <div class="sidebar-header">
+                    <h5>Menu</h5>
+                    <button class="nav-btn" onclick="toggleMenu()">
+                        x
+                    </button>
+                </div>
+                <ul>
+                    <li onclick="location.href='home.html';">Home</li>
+                    <li class="disabled">Portfolio</li>
+                    <li onclick="location.href='team.html';">Our Team</li>
+                    <li class="active">Contact Us</li>
+                </ul>
+            </nav>
+        </aside>
+    </section>
+    <main>
+        <div class="container-fluid">
+            <div class="contact-us-page">
+                <div class="email-box">
+                    <span class="mail-icon">
+                        <span class="avc-icon-mail2">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                            <span class="path3"></span>
+                            <span class="path4"></span>
+                            <span class="path5"></span>
+                        </span>
+                    </span>
+                    <p>Email Us</p>
+                    <a href="mailto:rohit@amara.vc">Rohit@amara.vc</a>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        Copyright © 2021-2022 Amara.VC, All rights reserved.
+    </footer>
+    <!-- Scripts Starts Here -->
+    <script src="../assets/scripts/script.js"></script>
+</body>
+</html>
