@@ -1,39 +1,63 @@
+@media (min-width: 769px) {
+  .email-box {
+    min-width: 200px;
+    height: 33vh;
+  }
+
+  
+}
 @media (max-width: 768px) {
-    html {
-        font-size: 12px;
-    }
-    body header {
-        padding: 7.5px 15px;
-    }
-    footer {
-        height: 40px;   
-    }
-    main {
-        margin-bottom: 40px;
-    }
+  html {
+    font-size: 12px;
+  }
+  body header {
+    padding: 7.5px 15px;
+  }
+  footer {
+    height: 40px;
+  }
+  main {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 542px) {
-    html {
-        font-size: 10px;
-    }
-    body header {
-        padding: 5px 10px;
-    }
-    footer {
-     height: 34px;   
-    }
-    .flip > .front,
-    .flip > .back, .flip.card-4 {
-        height: 20vh;
-    }
-    .flip.card-4 p {
-        font-size: 1.5rem;
-    }
-    .flip > .back p {
-        font-size: .8rem;
-    }
-    .flip > .back a {
-        font-size: .8rem;
-    }
+  html {
+    font-size: 10px;
+  }
+  body header {
+    padding: 5px 10px;
+  }
+  footer {
+    height: 34px;
+  }
+  main {
+    padding: 20px 0;
+    padding-top: 20px;
+  }
+  .flip > .front,
+  .flip > .back,
+  .flip.card-4 {
+    height: 20vh;
+  }
+  .flip.card-4 p {
+    font-size: 1.5rem;
+  }
+  .flip > .back p {
+    font-size: 0.8rem;
+  }
+  .flip > .back a {
+    font-size: 0.8rem;
+  }
+
+  .email-box a {
+    text-decoration: none;
+    color: #0099cc;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .contact-us-page {
+    height: calc(100vh - (60px + 35px + 40px));
+  }
 }
