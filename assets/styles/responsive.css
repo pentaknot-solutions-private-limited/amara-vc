@@ -19,6 +19,9 @@
   main {
     margin-bottom: 40px;
   }
+  .team-profile .profile-name {
+    font-size: 1.5rem !important;
+  }
 }
 
 @media (max-width: 542px) {
