@@ -85,22 +85,23 @@
     cursor: pointer;
   }
   .flip.card-1 > .front {
-    background: #ffaad8;
+    /* background: #4296f2; */
+    background: #f5f6fa;
   }
   .flip.card-2 > .front {
-    background: #bab8f9;
+    background: #ffaad8;
   }
   .flip.card-3 > .front {
-    background: #3b4862;
+    background: #bab8f9;
   }
   .flip.card-5 > .front {
-    background: #212121;
+    background: #3b4862;
   }
   .flip.card-6 > .front {
-    background: #f3f3f3;
+    background: #212121;
   }
   .flip.card-7 > .front {
-    background: #4296f2;
+    background: #f3f3f3;
   }
   .flip.card-8 > .front {
     background: #826ab5;
