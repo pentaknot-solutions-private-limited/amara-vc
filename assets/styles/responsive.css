@@ -3,8 +3,6 @@
     min-width: 200px;
     height: 33vh;
   }
-
-  
 }
 @media (max-width: 768px) {
   html {
@@ -44,7 +42,9 @@
     height: 20vh;
   }
   .flip.card-4 p {
-    font-size: 1.5rem;
+    /* Changed after shortening the text */
+    /* font-size: 1.5rem; */
+    font-size: 2.5rem;
   }
   .flip > .back p {
     font-size: 0.8rem;
